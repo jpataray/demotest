@@ -1,0 +1,327 @@
+@import url('font.css');
+
+body, div, ul, h1{ 
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Verdans, Helvetica;
+}
+
+body { 
+  background-color: #f7f7f7;
+  text-align: center; /* IE */
+}
+
+ul{	
+  list-style: none;
+  width: 764px !important;
+  width: 770px;
+  margin: 0 !important;
+  clear: both;
+  height: 149px;
+}
+
+li{ 
+  float:left;
+  margin-right: 9px !important;
+  height: 149px !important;
+}
+
+li:last-child { margin-right: 0px }
+
+h1{
+  font: 1.28em/100% Arial, Verdana;
+}
+
+textarea{
+  margin-top: 8px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 0px;
+}
+
+select{
+  border: none;
+}
+
+.clear{ clear: both }
+
+
+#container{
+  width: 865px;
+  margin: auto;
+  background-color: #fff;
+}
+
+#head-wrapper{
+  padding: 6px 23px 0px 23px;
+}
+
+#head-wrapper .toplabel{
+  height: 44px;
+  background: url(../images/as-soon-on-tv.jpg) top left no-repeat;
+  text-align: left;
+  padding-left: 69px !important;
+  padding-left: 69px;
+  padding-top: 10px;
+}
+
+#head-wrapper .celeb{
+  text-align: center;
+  padding: 0px;
+  margin-left:-4px;
+}
+
+#head-wrapper .line{
+  background: url(../images/line.jpg) no-repeat;
+  height: 8px;
+  margin-top: 8px;
+}
+
+#body-wrapper{
+
+}
+
+#body-wrapper .leftpanel{
+  position: relative;
+  width: 511px;
+  margin-top: -33px;
+  float: left;
+  padding:0px 20px 0px 10px;
+  font-size: .8em;
+}
+
+#body-wrapper .made-in-usa{
+  font-size: .8em;
+  margin-top: 20px;
+  width: 120px;
+  margin-left: 25px !important;
+  margin-left: 15px;
+  margin-bottom: -1px;
+  float: left;
+}
+
+#body-wrapper .made-in-usa img{
+  margin-bottom: -2px;
+}
+
+#body-wrapper .big-arrow{
+  background: url(../images/NEW_checkout_arrow_29.png) no-repeat;
+  height: 92px;
+  left: 0px;
+  width: 490px;
+  margin-left: -18px !important;
+  margin-left: -18px;
+  top: 34px;
+  position: absolute;
+}
+
+.product-info-l1{
+  margin-top: 135px !important;
+  margin-top: 110px;
+  font-weight: bold;
+  text-align: left;
+  padding: 5px 8px 5px 10px;
+  clear: both;
+}
+
+#body-wrapper .leftpanel .pro{ float: left }
+#body-wrapper .leftpanel .decs{ margin-left: 100px }
+#body-wrapper .leftpanel .price{ float: right }
+#body-wrapper .leftpanel .priceL{ margin-top: 0 !important; margin-top: -20px; margin-right: 0 !important; margin-right: 8px;}
+
+
+.product-info-l2{
+  padding:8px 8px 10px 10px;
+}
+
+.product-info-l3,
+.product-info-l4,
+.product-info-l5,
+.product-info-l6{
+  padding:5px 8px 5px 10px;
+  text-align: right;
+  width: auto !important;
+  width: 100%;
+}
+
+.product-info-l1, 
+.product-info-l2,
+.product-info-l3,
+.product-info-l4,
+.product-info-l5,
+.product-info-l6{
+  border-top: 1px solid #000;
+}
+
+.product-info-l5{
+  color: #cc0000;
+  font-weight: bold;
+}
+
+.product-info-l6{
+  border-bottom: 1px solid #000;
+  font-weight: bold;
+}
+
+.trial-date{
+  padding-top: 10px;
+  text-align: left;
+}
+
+.trial-date img{
+  float:left;
+  margin-right: 5px;
+}
+
+.trial-date .dateesti{
+  background-color: #ffff00;
+  font-family: Times,Arial;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+#body-wrapper .rightpanel{
+  float: right;
+  margin-top: 14px !important;
+  margin-top: -3px; /* IE 5 */
+  position: relative;
+  width: 278px;
+  padding-right:45px;
+}
+#body-wrapper .rightpanel p{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+.terms {color:#666666; font-size:11px; font-family:Arial, Helvetica, sans-serif; line-height:17px; text-align:left; width:258px; height:200px; overflow:auto; background-color: #FFF; margin:10px 0px 0px 0px; border-top: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0px; padding:2px; }
+.fields_form { padding:10px 0px 10px 0px; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+.fields_form { margin-left:20px; margin-top:10px;}
+.fields_form tr td { padding:5px 2px 5px 2px;}
+.fields_form .FormText, .fields_form .FormTextOptional { font-family:Arial; font-size:12px; font-weight:bold; vertical-align:middle;}
+.fields_form .FormTextOptional { font-weight:normal;}
+.fields_form .fieldBorders, .fields_form input[type=text], .fields_form select { border:1px solid #999999; padding:2px;}
+
+
+.copyright { text-align:center; font-size:11px; padding:5px 0px 5px 0px; font-family:Arial, Helvetica, sans-serif; line-height:15px; }
+.copyright a { color:black; text-decoration:none; }
+.copyright a:hover { text-decoration:underline;}
+
+#security-logos{
+  /* check out page security logos */  
+  clear: both;
+  margin-top: 10px;
+}
+
+#security-logos span { display:table-cell; vertical-align:middle; text-align:center;}
+
+.offerDetails {  text-align:justify;}
+.offerDetails p { margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#666666; padding-top:2px; padding-bottom:2px;}
+
+.div_verisign {
+  padding:20px 10px 0px 10px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #4d4949;
+}
+.text_red_12 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #FF0000;
+}
+/*
+Added by angelo m. 
+12.07.2011
+for additional form checkoutab.php
+*/
+.additional_form_checkoutab {
+  background: none repeat scroll 0 0 #F2F2F2;
+  border-left: 1px solid #E8E8E8;
+  border-right: 1px solid #E8E8E8;
+  font-family: Arial,Helvetica,sans-serif;
+  margin: 0 17px 0 7px;
+  padding: 5px 0px 0px 0px;
+}
+.additional_form_checkoutab table {
+  padding: 0px 0 10px;
+}
+.additional_form_checkoutab table td{
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  padding: 0 2px 1px;
+}
+.additional_form_checkoutab .leftTD {
+  font-weight: bold;
+  text-align: right;
+  padding-left: 10px;
+}
+#top-celeb {
+  background: url("../images/top-celeb-bg.jpg") no-repeat scroll 0 0 transparent;
+  height: 239px;
+  overflow: hidden;
+  position: relative;
+  width: 865px;  
+}
+#top-celeb #top-celeb-articles {
+  padding-top: 10px;
+}
+#top-celeb .article-title {
+  color: #fff;
+  font-size: 22.5px;
+}
+#top-celeb .celeb-section {
+  float: left;
+  padding: 9px 0 0 55px;
+}
+#top-celeb #lifecell-collagen-booster-product {
+  float: left;
+  left: 0px;
+  padding-top: 10px;
+  position: relative;
+}
+#promo-code-submit-btn {
+  background: url("../images/promo-code-submit-btn.png") no-repeat;
+  width: 91px !important;
+  height: 31px !important;
+  border: none;
+  margin: 0 10px;
+}
+#promo-code-submit-btn:hover {
+  background: url("../images/promo-code-submit-btn-hover.png") no-repeat;
+  cursor: pointer;
+}
+#promo-form-section {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 430px;
+  padding: 6px 0px 10px;
+}
+#promote-fields label {
+  color: #e10000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#promote-fields input#promo-code {
+  height: 31px;
+  width: 170px;
+  border: 1px solid #999999;
+}
+#promote-fields label,
+#promote-fields input#promo-code{
+  font-size: 15px;
+  padding: 0 5px;
+}
+#footer-container-section {
+  margin: 0 auto;
+  width: 865px;
+  padding: 25px 0;
+}
+#footer-border-break {
+  background: url('../images/footer-border-break-bg.png') no-repeat;
+  margin: 0 auto;
+  width: 801px;
+  height: 7px;
+}
+#security-logos img {
+  padding: 0 10px;
+}

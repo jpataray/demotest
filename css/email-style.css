@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "MyriadPro-Black";
+  src: url("fonts/MyriadPro-Black.otf");
+}
+@font-face {
+  font-family: "MyriadPro-Light";
+  src: url("fonts/MyriadPro-Light.otf");
+}
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url("fonts/MyriadPro-Regular.otf");
+}
+
+#page{
+	background: #fff;
+	box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    overflow: hidden;
+    width: 600px;
+}
+
+#logo{
+	padding-left: 50px;
+}
+#toptext{
+	padding: 10px 10px 0 50px;
+}
+#name-header{
+  font-size: 16px;
+  font-family: MyriadPro-Black;
+  float:left;
+}
+#questionstag{
+  font-size: 24px;
+  font-family: myriadPro-Light;
+  position: relative;
+  top: -8px;
+  float: right;
+}
+div.hr {
+  height: 2px;
+  background: #a201b0 right;
+  margin-left: 25px;
+}
+div.hr hr {
+  display: none;
+}
+#topcontent{
+    float: left;
+    font-family: MyriadPro-Regular;
+    font-size: 13px;
+    padding: 9px 0 0 50px;
+    width: 366px;
+}
+#topcontent p{
+    margin: 7px 0 1px;
+    padding: 0;
+}
+#middlebottom p{
+    padding: 0;
+	margin: 0;
+}
+#imgtopcontent{
+	float: right;
+}
+#middle{
+	background: url('../email/images/middlebg.png') no-repeat 0 0 transparent;
+	width: 600px;
+	height: 323px;
+}
+#middlebottom{
+	background: url('../email/images/middlebottom.png') no-repeat 0 0 transparent;
+	width: 600px;
+	height: 167px;
+}
+.textblack{
+  font-size: 24.5px;
+  font-family: MyriadPro-Black;
+  color: #8c0184;
+  text-transform: uppercase;
+}
+.textblack1{
+  font-size: 15px;
+  font-family: MyriadPro-Black;
+  color: #000;
+}
+.textsemi{
+  font-size: 13px;
+  font-family: MyriadPro-Regular;
+  color: #000;
+}
+.textsemi a{
+  color:#0a00d5; text-decoration:underline;
+}
+#valueimg{
+    left: 15px;
+    position: relative;
+    top: -20px;
+}
+#dermatologistimg{
+    left: 464px;
+    position: relative;
+    top: -148px;
+}
+#clickhereimg{
+    left: 290px;
+    position: relative;
+    top: -29px;
+}
+#topfooter{	
+	background: url('../email/images/graybg.png') repeat-x 0 0 transparent;
+	height: 86px;
+}
+#topfooter p{	
+	margin: 0;
+	padding: 0;
+}
+#midfooter{
+	background: url('../email/images/footermidbg.png') repeat-x 0 0 transparent;
+	height: 119px;
+}
+#midfooter p{	
+	margin: 0;
+	padding: 0;
+}
+#btmfooter p{	
+	margin: 0;
+	padding: 0;
+}
+.midfootertext{
+  font-size: 14px;
+  font-family: MyriadPro-Regular;
+  color: #fff;
+}
+#btmfooter{
+	height: 195px;
+	background-color: #fff;
+	color:#000;
+}
+.btmfootertext{
+  font-size: 14px;
+  font-family: MyriadPro-Regular;
+}
+/*form*/
+ * #promote-fields label, #promote-fields input#promo-code {
+    font-size: 15px;
+    padding: 0 5px;
+}
+#promote-fields input#promo-code {
+    border: 1px solid #999999;
+    height: 31px;
+    width: 172px;
+}
+#promo-code-submit-btn{
+	background: url('../email/images/copybtn.png') no-repeat 0 0 transparent;
+	width: 89px !important;
+	height: 31px !important;
+	border: medium none;
+    margin: 0 10px;
+}
+#promo-code-submit-btn:hover {
+	background: url('../email/images/copybtnhover.png') no-repeat 0 0 transparent;
+	cursor: pointer;
+}
+/*endform*/

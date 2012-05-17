@@ -1,0 +1,955 @@
+/* 
+    Document   : style
+    Created on : Mar 6, 2012, 3:31:21 AM
+    Author     : Angelo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+@font-face {
+  font-family: "MyriadPro-Black";
+  src: url("fonts/MyriadPro-Black.otf");
+}
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url("fonts/MyriadPro-Regular.otf");
+}
+@font-face {
+  font-family: "Republic-Heavy";
+  src: url("fonts/Republic-Heavy.otf");
+}
+@font-face {
+  font-family: "Ruda-Black";
+  src: url("fonts/Ruda-Black.ttf");
+}
+@font-face {
+  font-family: "Ruda-Bold";
+  src: url("fonts/Ruda-Bold.ttf");
+}
+@font-face {
+  font-family: "Ruda";
+  src: url("fonts/Ruda-Regular.ttf");
+}
+root { 
+  display: block;
+}
+body {
+  margin: 0 auto;
+  font-family: Ruda, MyriadPro-Regular, Arial, Times New Roman;
+  font-size: 12px;
+  color: #111111;
+  background: url("../images/bg.png") repeat fixed 0 0 transparent;
+}
+div#page {  
+  margin: 0 auto;
+  overflow: hidden;
+  width: 1200px;
+  -moz-box-shadow: 0 0 6px 6px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 6px 6px rgba(0,0,0,0.5);
+  box-shadow: 0 0 6px 6px rgba(0,0,0,0.5);
+}
+#collagen-booster-top {
+  background: url('../images/collagen-booster-top-bg.jpg') no-repeat transparent;
+  width: 1200px;
+  height: 505px;
+}
+#collagen-booster-top2 {
+  background: url('../images/collagen-booster-top-bg2.jpg') no-repeat transparent;
+  width: 1200px;
+  height: 653px;
+}
+#form-top-section {
+  float: right;
+  padding-top: 220px;
+  position: relative;
+  right: 130px;
+  width: 245px;
+}
+#form-top-section a#buynowbutton, #form-top-section a#havecouponbutton{
+  text-decoration: none;
+} 
+#form-top-section a#buynowbutton div{
+  display: block;
+  width: 207px;
+  height: 56px;
+  background: url('../images/buyNowButton-2.png');
+  text-decoration: none;
+  border: 0px solid #fff;
+  margin: 160px 0 0 20px;
+  opacity: 1.0;
+}
+#form-top-section a#buynowbutton div:hover{
+  display: block;
+  width: 207px;
+  height: 56px;
+  background: url('../images/buyNowButton-2B.png');
+  text-decoration: none;
+  border: 0px solid #fff;
+  margin: 160px 0 0 20px;
+}
+
+#form-top-section a#havecouponbutton div{
+  display: block;
+  width: 207px;
+  height: 69px;
+  background: url('../images/HaveCoupon-2.png');
+  text-decoration: none;
+  border: 0px solid #fff;
+  margin: 95px 0 0 20px;
+  opacity: 1.0;
+}
+#form-top-section a#havecouponbutton div:hover{
+  display: block;
+  width: 207px;
+  height: 69px;
+  background: url('../images/HaveCoupon-2B.png');
+  text-decoration: none;
+  border: 0px solid #fff;
+  margin: 95px 0 0 20px;
+}
+
+/*bottom button*/
+#form-top-sectionv1 a#buynowbutton div{
+    background: url("../images/buyNowButton-2.png") repeat scroll 0 0 transparent;
+    border: 0 solid #FFFFFF;
+    height: 56px;
+    left: 6px;
+    margin: 160px 0 0 20px;
+    opacity: 1;
+    position: absolute;
+    text-decoration: none;
+    top: -35px;
+    width: 207px;
+}
+#form-top-sectionv1 a#buynowbutton div:hover{
+  display: block;
+  width: 207px;
+  height: 56px;
+  background: url('../images/buyNowButton-2B.png');
+  text-decoration: none;
+  border: 0px solid #fff;
+  margin: 160px 0 0 20px;
+}
+
+#form-top-sectionv1 a#havecouponbutton div{
+  display: block;
+  width: 207px;
+  height: 69px;
+  background: url('../images/HaveCoupon-2.png');
+  text-decoration: none;
+  border: 0px solid #fff;
+  margin: 95px 0 0 20px;
+  opacity: 1.0;
+  position: absolute;
+  left: 6px;
+  top: 181px;
+}
+#form-top-sectionv1 a#havecouponbutton div:hover{
+  display: block;
+  width: 207px;
+  height: 69px;
+  background: url('../images/HaveCoupon-2B.png');
+  text-decoration: none;
+  border: 0px solid #fff;
+  margin: 95px 0 0 20px;
+}
+/*end button bottom*/
+
+#where-should-we-send-it {
+  color: #636363;
+  font-size: 17px;
+  line-height: 10px;
+}
+#form-top-section-header {
+  background: url('../images/hurry-limiter-offer.jpg') no-repeat transparent;
+  width: 244px;
+  height: 102px;  
+}
+#form-top-section-border-bottom-bg {
+  background: url('../images/form-top-section-form-border-bottom-bg.png') no-repeat;
+  width: 243px;
+  height: 39px;
+  margin-top: -25px;
+  margin-bottom: -25px;
+}
+#collagen-booster-bottom-bg {
+  background: url('../images/collagen-booster-bottom-bg.jpg') no-repeat;
+  width: 1200px;
+  height: 147px;
+  position: relative;
+}
+#form-top-body {
+  background: url('../images/form-top-section-bg.jpg') repeat transparent;
+  width: 244px;  
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 0px;
+  z-index: 1;
+  position: relative;
+}
+.field {
+  background: url("../images/field-bg.png") no-repeat scroll left top transparent;
+  width: 192px;;
+  height: 30px;
+  border: none;
+  margin-bottom: 5px;
+  margin-left: 3px;
+  padding-left: 10px;
+}
+
+.shipping_first_name,
+.shipping_first_name2 {
+  background: url("../images/text-field-bg-first-name.png") no-repeat scroll left top transparent;
+}
+.shipping_last_name,
+.shipping_last_name2 {
+  background: url("../images/text-field-bg-last-name.png") no-repeat scroll left top transparent;
+}
+.shipping_address,
+.shipping_address2 {
+  background: url("../images/text-field-bg-address.png") no-repeat scroll left top transparent;
+}
+.shipping_city,
+.shipping_city2 {
+  background: url("../images/text-field-bg-city.png") no-repeat scroll left top transparent;
+}
+.shipping_state,
+.shipping_state2 {
+  background: url("../images/text-field-bg-state.png") no-repeat scroll left top transparent;
+}
+.shipping_zip_postal,
+.shipping_zip_postal2 {
+  background: url("../images/text-field-bg-zip-postal.png") no-repeat scroll left top transparent;
+}
+.shipping_phone,
+.shipping_phone2 {
+  background: url("../images/text-field-bg-phone.png") no-repeat scroll left top transparent;
+}
+.shipping_email,
+.shipping_email2 {
+  background: url("../images/text-field-bg-email.png") no-repeat scroll left top transparent;
+}
+.field:focus {  
+  background-position: left bottom;
+}
+#btn-rush-my-order {
+  background: url('../images/btn-rush-my-order.jpg') no-repeat;
+  width: 202px;
+  height: 55px;
+  border: none;
+  cursor: pointer;
+}
+#btn-rush-my-order:hover {
+  background: url('../images/btn-rush-my-order-hover.jpg') no-repeat;
+}
+#top-third-party-security {
+  padding: 10px 0px;
+  background: none repeat scroll 0 0 #FFFFFF;
+}
+#top-third-party-security #icon-links {
+  padding-left: 245px;
+}
+#top-third-party-security #icon-links a:first-child {
+  padding-left: 0px;
+}
+#top-third-party-security #icon-links a {
+  padding-left: 20px;
+}
+#top-third-party-security #icon-links #privacy-links {
+  padding-left: 100px;
+}
+a img {
+  border: none;
+}
+#protecting-personal-info {
+  background: #45014b;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 15px;
+  padding: 3px 0px;
+}
+.red-text {
+  color: #ff0000;
+}
+#level-section {
+  background: url('../images/bg-gray-section.png') repeat-y;
+  height: 247px;
+  padding-left: 80px;
+  padding-top: 20px;
+  margin-top: 1px;  
+}
+.clear {
+  clear: both;
+}
+#level-section-experiment-photo {
+  float: left;
+  width: 288px;
+  position: relative;
+  z-index: 2;
+}
+#level-section-experiment-article {
+  float: left;
+  width: 380px;
+  padding-left: 10px;
+  color: #fff;
+}
+.collagen-hit {
+  font-size: 24px;  
+}
+.collagen-experiment-article {
+  font-size: 16px;
+}
+#collage-expected-results {
+  background: url("../images/collage-expected-results-bg.jpg") no-repeat scroll 0 0 #212A39;
+  height: 320px;
+  margin-top: -35px;
+  width: 948px;
+  padding: 35px 120px 10px 132px;
+  color: #fff;  
+  position: absolute;
+  z-index: 1;
+}
+#expect-results-article {
+  float: left;    
+  position: relative;
+  width: 315px;
+  z-index: 2;
+}
+.expect-results-article-title {
+  font-size: 43px;
+  line-height: 40px;
+  font-family: Republic-Heavy;
+}
+.expect-results-article-subtitle {
+  font-size: 26px;
+  line-height: 26px;
+  font-family: Ruda-Black;
+}
+.list-expect-results {
+  font-size: 14px;
+}
+.list-expect-results ul {
+  padding: 0;
+}
+.list-expect-results ul li {
+  list-style: none;
+  padding: 2px 15px 2px 40px;
+  background: url('../images/list-arrow.png') no-repeat center left;
+}
+.list-expect-results ul li.odd {
+  background: url('../images/list-arrow.png') no-repeat #344151 center left;
+}
+#collagen-skin-parts {  
+  height: 180px;
+}
+#collagen-skin-parts-promote {
+  float: left;
+  width: 320px;
+  padding: 0 5px;
+  margin-left: 45px;
+}
+.collagen-skin-parts-promote-title {
+  font-size: 26px;
+  font-family: Republic-Heavy;
+}
+#lifecell-collagen-label,
+#lifecell-anti-wrinkle-cream-label{
+  font-size: 15px;
+  float: left;
+  width: 185px;
+  position: relative;
+}
+#collagen-skin-parts-label {
+  width: 500px;
+}
+#lifecell-collagen-label {  
+  left: 10px;
+  color: #f0c1c1;
+}
+#lifecell-anti-wrinkle-cream-label {  
+  left: -20px;
+  color: #d4d9ff;
+}
+#lifecell-collage-booster-promotes {
+  float: left;
+  width: 255px;
+}
+#longer-healthier-ribbon {
+  position: relative;
+  margin-top: -35px;
+  left: -100px;
+}
+#lifecell-product-promote {
+  left: 25px;
+  position: relative;
+  margin-top: -140px;
+}
+#licell-collagen-booster-promote {
+  background: url('../images/lifecell-collagen-booster-promote-bg.png') no-repeat;
+  width: 211px;
+  height: 144px;
+  font-size: 13px;
+  color: #4b4b4b;
+  padding: 10px 18px;
+  margin-top: -40px;
+  margin-left: 20px;
+  line-height: 15px;
+}
+#what-is-resveratrol {
+  background: url('../images/what-is-resveratrol-bg.jpg') repeat-y;
+  height: 485px;
+  margin-top: 330px;  
+}
+#what-is-resveratrol-section-article {
+  float: left;
+  padding-top: 45px;
+  width: 515px;
+}
+#what-is-resveratrol-section-title {
+  color: #9402A1;
+  font-size: 57px;
+  line-height: 53px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#what-is-resveratrol-section-article .collagen-booster-red-ribbon {
+  float: right;
+  margin-top: -166px;
+}
+.what-is-resveratrol-section-subarticle {
+  color: #9402A1;
+  font-size: 16px;
+  margin-top: -20px;
+}
+.what-is-resveratrol-section-article-contents {
+  font-size: 13px;
+}
+#what-is-resveratrol-red-section {
+  background: #c50000;
+  height: 300px;
+}
+#wine-resveratrol-section-down {
+  float: left;
+  width: 305px;
+  position: relative;
+  top: -10px;
+}
+#right-red-resveratrol-bg-top {
+  background: url("../images/right-red-resveratrol-bg-top.jpg") repeat-x scroll 0 0 transparent;
+  float: left;
+  height: 43px;
+  margin-top: -33px;
+  width: 895px;
+}
+#right-red-resveratrol-bg-body {
+  background: url('../images/right-red-resveratrol-bg-body.jpg') repeat;
+  height: 228px;
+  margin-left: 305px;  
+  margin-top: 20px;
+}
+#fight-diseases-article {
+  padding-top: 10px;
+  padding-left: 20px;
+  float: left;
+  width: 258px;
+}
+#fight-diseases-top {
+  background: url('../images/fight-diseases-bg-top.jpg') no-repeat;
+  width: 258px;
+  height: 33px;
+}
+#wine-resveratrol-container {
+  float: left;
+  width: 305px;
+}
+#fight-diseases-body {
+  background: url("../images/fight-diseases-body-bg.png") repeat-y scroll 0 0 transparent;
+  color: #28347E;
+  font-size: 13px;
+  font-family: Ruda;
+  padding: 0 20px 5px;
+  position: absolute;
+  width: 218px;
+  z-index: 2;
+}
+#fight-diseases-body .article-title {
+  color: #28347e;
+  font-size: 22px;
+  font-family: Republic-Heavy;
+}
+#fight-diseases-body strong {
+  color: #000000;
+}
+#wine-resveratrol-section-container-down {
+  position: relative;
+  margin-top: -13px;
+}
+.harvard-school-logo {
+  background: url('../images/harvard-school-logo.png') no-repeat;
+  float: left;
+  width: 59px;
+  height: 59px;
+}
+.harvard-example {
+  float: left;
+  width: 150px;
+  margin-left: 7px;
+  color: #111111;
+  font-size: 13px;
+}
+.photo-shadow {
+  background: url("../images/photo-shadow.png") no-repeat scroll 0 0 transparent;
+  height: 48px;
+  left: -17px;
+  position: relative;
+  top: 60px;
+  width: 258px;
+  z-index: 2;
+}
+strong {
+  font-weight: bold;
+  font-family: Ruda-Black;
+}
+#red-mid-section-article-section {
+  width: 515px;
+}
+#red-mid-section-article-section,
+#red-mid-section-article-section .article{
+  font-size: 21px;
+  color: #fff;
+}
+#red-mid-section-article-section .article {
+  float: left;
+  padding-top: 30px;
+  width: 310px;
+}
+#doctor-promotes-resv {
+  background: url("../images/doctor-promotes-resv.png") no-repeat scroll 0 0 transparent;
+  float: right;
+  height: 288px;
+  position: absolute;
+  right: 280px;
+  top: -60px;
+  width: 299px;
+}
+#testimonials-from-doctor {
+  background: url('../images/from-doctor-section-body-bg.jpg') repeat;
+}
+#testimonials-resveratrol-section {
+  float: left;
+  left: 5px;
+  margin-top: -15px;
+  overflow: hidden;
+  position: relative;
+  width: 818px;
+  z-index: 3;
+}
+#testimonials-resveratrol-section-top {  
+  width: 818px;
+  height: 19px;
+}
+#testimonials-resveratrol-section-body {
+  overflow: hidden;
+  width: 818px;
+}
+#testimonials-resveratrol-section-body-articles {
+  margin-left: 130px;
+  color: #524234;
+}
+#testimonials-resveratrol-section-body-articles .article-title {
+  font-family: Republic-Heavy;
+  font-size: 30px;
+  color: #524234;
+}
+#testimonials-resveratrol-section-body-articles .sub-article-title {
+  font-size: 14px;
+}
+#bill-sardi-container {
+  background: url("../images/bill-sardi-container-bg.png") no-repeat scroll 0 0 transparent;
+  color: #111111;
+  height: 127px;
+  padding-left: 16px;
+  padding-top: 16px;
+  width: 628px;
+}
+#bill-sardi-photo {
+  background: url("../images/bill-sardi-photo.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 75px;  
+  width: 150px;
+  margin-right: 15px;
+}
+.resveratrol-testimonial {
+  font-family: Ruda-Bold;
+  font-size: 13.5px;
+  margin: 10px 0;
+  float: left;
+}
+.resveratrol-testimonial-author {
+  float: right;
+  font-size: 17px;
+  margin-right: 25px;
+  margin-top: -15px;
+}
+#testimonials-resveratrol-section-body-articles .intro-testimonial {
+  font-size: 14.5px;
+  margin-top: -35px;
+}
+#david-sinclair-container {
+  background: url("../images/david-sinclair-container-bg.png") no-repeat scroll 0 0 transparent;
+  color: #111111;
+  height: 115px;
+  margin-top: -10px;
+  padding-left: 16px;
+  padding-top: 16px;
+  width: 628px;
+}
+#david-sinclair-photo {
+  background: url("../images/david-sinclair-photo.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 75px;
+  width: 150px;
+  margin-right: 15px;
+}
+#knowing {
+  margin-top: -20px;
+}
+#harvard-container {
+  background: url("../images/harvard-container-bg.png") no-repeat scroll 0 0 transparent;
+  color: ##524234;
+  height: 137px;
+  margin-top: -10px;
+  padding-left: 16px;
+  padding-top: 16px;
+  width: 637px;
+  text-align: center;
+}
+.harvard-promote-article {
+  float: left;
+  width: 510px;  
+}
+#harvard-photo {
+  background: url("../images/harvard-school-logo-medium.png") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 90px;
+  width: 92px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.harvard-promote-title {
+  font-size: 16.5px;  
+}
+.harvard-promote-testimonial {
+  color: #C82127;
+  font-family: Republic-Heavy;
+  font-size: 31px;
+  line-height: 31px;
+  margin-top: -8px;
+  text-align: left;
+}
+#satisfaction-article {
+  width: 466px;
+  float: left;
+}
+#satisfaction-guarantee-photo {
+  background: url("../images/satisfaction-guarantee-photo.png") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 103px;
+  margin-bottom: 11px;
+  margin-top: -32px;
+  position: relative;
+  width: 151px;
+  z-index: 2;
+}
+#from-the-doctor-section {
+  margin-top: -15.5px;
+  float: left;
+}
+#from-the-doctor-section-top {
+  background: url('../images/from-doctor-section-top-bg.jpg') repeat-x;
+  width: 382px;
+  height: 250px;
+  padding-top: 5px;
+}
+#from-the-doctor-section-body {
+  background: url('../images/from-doctor-section-body-bg.jpg') repeat;
+  width: 382px;  
+}
+#dr-hugo-photo {
+  background: url("../images/dr-hugo-photo.png") no-repeat scroll 0 0 transparent;
+  height: 248px;
+  margin-left: 22px;  
+  position: relative;
+  width: 247px;
+  z-index: 2;
+}
+#doctor-articles-section {
+  margin-left: 35px;  
+  position: relative;
+  width: 240px;
+  font-size: 13.5px;  
+}
+#doctor-articles-section .article-title {
+  font-size: 18px;
+  line-height: 30px;  
+}
+#fix-bg {
+  background: url("../images/dotted-bg.jpg") repeat scroll 0 0 transparent;
+  overflow: hidden;
+}
+#what-customers-saying {
+
+}
+#what-customers-saying-top {
+  background: url('../images/what-customer-sayings-top-bg.jpg') no-repeat;
+  width: 1200px;
+  height: 10px;
+}
+#what-customers-saying-body {
+  background: url('../images/what-customer-sayings-body-bg.jpg') repeat-y;
+  width: 1200px; 
+}
+#what-customers-saying .article-title,
+#what-media-are-saying-articles .article-title {
+  text-align: center;
+  color: #fff;
+  font-size: 38.5px;
+  font-family: Republic-Heavy;
+  top: 8px;
+  position: relative;
+}
+#what-customers-saying-articles {
+  padding: 0 100px;
+  overflow: hidden;
+}
+#what-customers-saying-articles .sayings-container {
+  float: left;
+  background: url('../images/sayings-container.jpg') no-repeat;
+  width: 324px;
+  height: 246px;
+}
+.sayings-inner-container {
+  padding: 20px 30px;
+  font-size: 13.5px;
+}
+.saying-customer-author {    
+  color: #111111;
+}
+.sayings-customer-rating {
+  background: url('../images/sayings-customer-rating.jpg') no-repeat;
+  width: 133px;
+  height: 34px;
+  margin-top: -13px;
+}
+.sayings-inner-container .sayings-content {
+  margin-top: 2px;
+  color:  #5d5d5d;
+}
+#announcing-lifecell-resv {
+  background: url("../images/announcing-lifecell-resv.png") no-repeat scroll 0 0 transparent;
+  float: right;
+  height: 254px;
+  left: -112px;
+  margin-top: -334px;
+  position: relative;
+  width: 254px;
+}
+#what-customers-saying-bottom {
+  background: url("../images/what-customer-sayings-bottom-bg.jpg") no-repeat scroll center bottom transparent;
+  height: 20px;
+  width: 1200px;
+}
+#what-media-are-saying-body {  
+  background: url("../images/what-media-are-saying-body-bg.jpg") repeat-y scroll 0 0 transparent;
+  overflow: hidden;
+  width: 1200px;
+}
+#what-media-are-saying-articles {
+  padding-top: 20px;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+#what-media-are-saying-articles .article-title {
+  color: #574637;
+}
+#what-media-are-saying-articles .entry-content {
+  float: left;
+  width: 470px;
+  font-size: 13.5px;  
+}
+#what-media-are-saying-articles .entry-content .content {
+  float: left;
+  padding-left: 10px;
+  width: 290px;
+  padding-bottom: 25px;
+}
+#fox-news-logo {
+  background: url("../images/fox-news-logo.png") no-repeat;
+  height: 149px;
+  width: 153px;
+  float: left;
+}
+#cbs-news-logo {
+  background: url("../images/cbs-news-logo.png") no-repeat;
+  height: 136px;
+  width: 150px;
+  float: left;
+}
+.purple-col {
+  color: #762f9f;
+}
+#top-celebrities-body {
+  background: url("../images/top-celebrities-body-bg.jpg") repeat scroll 0 0 transparent;
+  height: 325px;
+  overflow: hidden;
+  width: 1200px;
+}
+#top-celebrities-body .article-title {
+  font-size: 37.5px;
+  color: #fff;
+  font-family: Republic-Heavy;  
+}
+#top-celebrities-section-articles {
+  padding-top: 15px;
+  text-align: center;
+}
+#top-celebrities-loves-collagen {
+  /*background: url('../images/top-celebrities-loves-collagen.png') no-repeat;
+  width: 525px;
+  height: 300px;
+  margin: 0 auto;*/
+    float: left;
+    left: 137px;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-top: 0;
+    position: relative;
+    top: 5px;
+    width: 755px;
+}
+#top-celebrities-loves-collagen img {
+    padding: 0 4px;
+}
+#satisfaction-guarantee-100 {
+    float: left;
+    left: 119px;
+    position: relative;
+    top: 34px;
+    width: 200px;
+}
+#lifecell-supplements-body {
+  background: url('../images/lifecell-supplements-body-bg.jpg') repeat-y;
+  width: 1200px;
+  max-height: 350px;  
+}
+#lifecell-supplements-articles-section {
+  padding: 0 75px;
+}
+#lifecell-collagen-booster-product {
+  float: left;
+  height: 372px;
+  overflow: hidden;
+  position: relative;
+  top: -20px;
+  width: 309px;
+  z-index: 2;
+}
+#lifecell-product-articles-content {
+  float: left;
+  width: 440px;
+  padding: 10px 0 0 0;
+}
+#lifecell-product-logo {
+  /*left: 10px;
+  position: relative;*/
+      left: 25px;
+    position: relative;
+    top: 8px;
+}
+#discover-lifecell-certification {
+  /*background: url("../images/discover-lfecell-certification-img.png") no-repeat scroll 0 0 transparent;
+  height: 169px;
+  left: -50px;
+  position: relative;
+  width: 484px;
+  z-index: 1;*/
+    background: url("../images/discover-secret-top-cert.png") no-repeat scroll 0 0 transparent;
+    height: 180px;
+    left: -50px;
+    position: relative;
+    width: 484px;
+    z-index: 1;
+}
+#protecting-article {
+  /*font-size: 13px;
+  font-family: Arial;
+  margin-left: 20px;
+  color: #111111;*/
+      color: #111111;
+    font-family: Arial;
+    font-size: 13px;
+    left: 135px;
+    margin-left: 20px;
+    position: relative;
+    top: 100px;
+    width: 317px;
+}
+.reddish {
+  color: #ff0000;
+  font-weight: bold;
+}
+#lower-form {
+  float: left;
+  padding-bottom: 40px;
+}
+#lower-form #form-top-section {
+  left: 0;
+  padding-top: 0;
+  position: relative;
+  top: -65px;
+}
+#lower-form #form-top-sectionv1 {
+  background: url("../images/collagen-button-bg.png") no-repeat scroll 0 0 transparent;
+  left: 0;
+  padding-top: 0;
+  position: relative;
+  top: -65px;
+  width: 259px;
+  height: 383px;
+}
+#bottom-third-party-security {
+  background: url("../images/bottom-third-party-security-bg.jpg") no-repeat scroll 0 0 transparent;
+  height: 99px;
+  margin-top: -73px;
+  width: 1200px;
+  z-index: 2;
+}
+#bottom-third-party-security #security-links-container {
+  padding: 15px 245px;
+}
+#security-links a {
+  padding: 0 5px;
+}
+#footer-section {
+  background: url("../images/dotted-bg.jpg") repeat scroll 0 0 transparent;
+  height: 10px;
+  width: 1200px;
+  text-align: center;
+  padding: 25px 0;
+}
+#footer-section #footer-label {
+  font-family: Arial;
+  font-size: 12px;
+  color: #322f2f;
+}
+.shadow-box {
+  -moz-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+
